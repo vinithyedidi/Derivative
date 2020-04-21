@@ -18,12 +18,12 @@ public abstract class Function {
 	
 	abstract Double calculator(Function function, double xValue);
 	
-	public static final Exception EmptyInputException = new Exception("EmptyInputException");
-	public static final Exception InvalidInputException = new Exception("InvalidInputException");
-	public static final Exception NoYValueException = new Exception("This function is not differentiable. The inputed X value doesn't have a corrensponding Y value.");
-	public static final Exception NotDiffrentiableException = new Exception("This function is not differentiable. The left limit doesn't equal the right limit.");
+	public static final Exception EmptyInputException = new Exception("Your input was empty. Please try again.");
+	public static final Exception InvalidInputException = new Exception("Your input was invalid. Please try again.");
+	public static final Exception NoYValueException = new Exception("This function is not differentiable. The inputted X value doesn't have a corresponding Y value. Please try again.");
+	public static final Exception NotDiffrentiableException = new Exception("This function is not differentiable. The left limit doesn't equal the right limit. Please try again.");
 	public static final Exception ErrorOccurredException = new Exception("An error occurred. Please try again.");
-	public static final Exception TooLargeNumberException = new Exception("The numbers you inputed were too large. Please try again.");
+	public static final Exception TooLargeNumberException = new Exception("The numbers you inputted were too large. Please try again.");
 	public static final Exception InvalidXValueException = new Exception ("Your X value was invalid. Please try again.");
 	
 }
