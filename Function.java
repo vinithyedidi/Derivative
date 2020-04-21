@@ -24,6 +24,6 @@ public abstract class Function {
 	public static final Exception NotDiffrentiableException = new Exception("This function is not differentiable. The left limit doesn't equal the right limit. Please try again.");
 	public static final Exception ErrorOccurredException = new Exception("An error occurred. Please try again.");
 	public static final Exception TooLargeNumberException = new Exception("The numbers you inputted were too large. Please try again.");
-	public static final Exception InvalidXValueException = new Exception ("Your X value was invalid. Please try again.");
+	public static final Exception InvalidXValueException = new Exception ("Your inputted X value was invalid. Please try again.");
 	
 }
